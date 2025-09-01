@@ -3,9 +3,9 @@ name: CI / Build & Push Container
 # Run on push to main (change branch as needed) and on PRs
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "master" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "master" ]
 
 # Need package write permission for GHCR push
 permissions:
