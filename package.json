@@ -20,8 +20,5 @@
   "bugs": {
     "url": "https://github.com/johnpapa/node-hello/issues"
   },
-  "homepage": "https://github.com/johnpapa/node-hello#readme",
-  "dependencies": {
-    "newrelic": "^13.2.1"
-  }
+  "homepage": "https://github.com/johnpapa/node-hello#readme"
 }
