@@ -11,6 +11,9 @@ resource "docker_image" "app" {
 resource "docker_container" "app" {
   name  = "node-hello-app"
   image = docker_image.app.image_id
+  env = [
+    "NEW_RELIC_LICENSE_KEY=eu01xxc2c40de70a6c66f92ca82aeb38FFFFNRAL"
+  ]
   ports {
     internal = 3000   # app port inside container
     external = 3000   # exposed port on your machine
